@@ -1,0 +1,65 @@
+{
+  "description": "Illustrative synthetic pharmacy records. Expiry offsets are relative to the date the demo seed command runs.",
+  "records": [
+    {
+      "medicine_name": "Amoxicillin 500 mg",
+      "sku": "AMX-500",
+      "batch_number": "AX-41A",
+      "expiry_after_days": 12,
+      "quantity": 84,
+      "daily_usage": 4,
+      "reorder_level": 35,
+      "lead_time_days": 9,
+      "safety_stock": 14,
+      "open_orders": 0,
+      "target_stock_days": 30,
+      "minimum_order_quantity": null,
+      "unit_cost": 0.14
+    },
+    {
+      "medicine_name": "Amoxicillin 500 mg",
+      "sku": "AMX-500",
+      "batch_number": "AX-42B",
+      "expiry_after_days": 55,
+      "quantity": 120,
+      "daily_usage": 4,
+      "reorder_level": 35,
+      "lead_time_days": 9,
+      "safety_stock": 14,
+      "open_orders": 0,
+      "target_stock_days": 30,
+      "minimum_order_quantity": null,
+      "unit_cost": 0.14
+    },
+    {
+      "medicine_name": "Paracetamol 500 mg",
+      "sku": "PARA-500",
+      "batch_number": "P-209C",
+      "expiry_after_days": 180,
+      "quantity": 36,
+      "daily_usage": 8,
+      "reorder_level": 20,
+      "lead_time_days": 4,
+      "safety_stock": 18,
+      "open_orders": 0,
+      "target_stock_days": 30,
+      "minimum_order_quantity": 100,
+      "unit_cost": 0.07
+    },
+    {
+      "medicine_name": "Insulin glargine 100 units/mL",
+      "sku": "INS-100",
+      "batch_number": "IG-812D",
+      "expiry_after_days": 250,
+      "quantity": 50,
+      "daily_usage": 1.2,
+      "reorder_level": 18,
+      "lead_time_days": 10,
+      "safety_stock": 12,
+      "open_orders": 0,
+      "target_stock_days": 30,
+      "minimum_order_quantity": null,
+      "unit_cost": 5.8
+    }
+  ]
+}

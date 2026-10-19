@@ -1,0 +1,1 @@
+"""MediStock test suite."""
